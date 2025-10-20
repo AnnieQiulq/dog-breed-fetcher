@@ -62,6 +62,5 @@ public class DogApiBreedFetcher implements BreedFetcher {
             throw new BreedNotFoundException("Parsing error: " + e.getMessage());
         }
 
-        //return new ArrayList<>();
     }
 }
